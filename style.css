@@ -1,0 +1,513 @@
+* {
+
+
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.info {
+
+    display: flex;
+    gap: 20px;
+
+
+
+
+}
+
+
+.but>button {
+
+    color: #c8437b;
+    border-style: solid;
+    border-color: #c8437b;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #c8437b;
+
+
+
+
+}
+
+.but>button:hover {
+
+
+    color: white;
+    border-style: solid;
+    background-color: #c8437b;
+}
+
+.but {
+
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+    justify-content: start;
+
+
+
+}
+
+
+section {
+    display: flex;
+    padding: 20px;
+    background-image: url("./images/dog-image.png");
+    background-size: cover;
+    height: 400px;
+    flex-direction: column;
+    background-position: center;
+    gap: 20px;
+
+}
+
+.dog1 {
+
+
+
+    width: 500px;
+
+
+}
+
+.sec-1 {
+
+    background-image: linear-gradient(90deg, #d6f4f8, #f3dafb);
+    padding: 20px;
+}
+
+.info>a:hover {
+
+    border-bottom-style: solid;
+
+
+}
+
+
+/* sec2 */
+.sec-2 {
+
+
+
+    margin: 10px;
+
+    background-image: linear-gradient(90deg, #d6f4f8, #f3dafb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+
+
+}
+
+.box1 {
+
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.442);
+
+
+
+}
+
+.box1:hover {
+
+    background-color: #d6f4f8;
+}
+
+.box {
+
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+/* sec3 */
+
+
+
+.sec-3 {
+
+
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+
+}
+
+.pic {
+
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.hed {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.sec3 {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.p41 {
+
+
+
+    color: #c8437b;
+    border-style: solid;
+    border-color: #c8437b;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #c8437a3c;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px
+}
+
+.p4 {
+
+
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sec-4 {
+
+
+    margin: 20px;
+}
+
+
+.p41:hover {
+    color: white;
+    border-style: solid;
+    background-color: #c8437b;
+
+
+}
+
+
+
+.image5 {
+
+
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 18px rgb(37, 133, 133);
+    border-radius: 30px;
+    margin: 30px;
+
+}
+
+
+.sec-5 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.heading5 {
+
+    margin-top: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.p5 {
+
+    color: #c8437b;
+    border-style: solid;
+    border-color: #c8437b;
+    padding: 10px;
+    box-shadow: 0px 0px 20px #c8437a3c;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 100px
+}
+
+.p5:hover {
+
+    color: white;
+    border-style: solid;
+    background-color: #c8437b;
+
+
+}
+
+
+
+.pic6 {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.pic66 {
+
+
+    height: 250px;
+
+}
+
+.sec-6 {
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: #f4dafb;
+    height: 400px;
+      border-radius: 2  0px;
+}
+
+
+.box6 {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    gap: 20px;
+    border-style: solid;
+    border-color: #c8437b;
+    border-radius: 30px;
+    height: 80px;
+
+}
+
+
+.but6 {
+
+
+    color: #16969e;
+    border-style: solid;
+    border-color: #16969e;
+    padding: 10px;
+    width: 120px;
+    box-shadow: 0px 0px 20px #16959e70;
+    border-radius: 30px;
+
+}
+
+.but6:hover {
+    color: white;
+    background-color: #16969e;
+
+}
+
+.h7 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.p7 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.img77 {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pr7 {
+
+
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec77 {
+
+
+    background-color: white;
+
+    box-shadow: 0px 0px 18px rgb(174, 169, 169);
+    margin: 20px;
+    border-radius: 30px;
+
+}
+
+.h777 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(min-width:764px) {
+
+
+    nav {
+
+
+
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+    section {
+
+
+        justify-content: center;
+        background-position: right;
+    }
+
+    .box {
+
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+
+    }
+
+    .box1 {}
+
+    .sec2 {
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        /* width: 1000px; */
+    }
+
+
+    .sec-2 {
+
+        background-color: #df0dbc;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    .sec3 {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+
+    .sec-5 {
+
+
+        flex-direction: row;
+        flex-direction: row-reverse;
+    }
+
+    .box6{
+
+
+        
+    }
+
+
+    .sec6 {
+
+        display: flex;
+        align-items: center;
+        gap: 20px;
+     
+    }
+
+    .sec-6 {
+
+        justify-items: center;
+        height: 400px;
+        justify-content: center;
+
+    }
+
+    .pic6 {
+
+
+        width: 50%;
+    }
+
+    .box6 {
+
+        margin-top: 0;
+        width: 50%;
+        height: 100px;
+    }
+
+    .sec77 {
+
+
+        display: flex;
+    }
+
+    .h77 {
+
+        width: 200px;
+        display: flex;
+        gap: 60px;
+        justify-content: space-between;
+
+    }
+
+    .sec-77 {
+
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        justify-content: center;
+    }
+
+}
